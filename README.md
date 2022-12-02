@@ -4,7 +4,7 @@
 
 
 # AdventofCode
-[Advent of Code](adventofcode.com) competition
+[Advent of Code](https://adventofcode.com) competition
 I have recorded Intro to Advent of code. I covered the steps you need to take to start playing and explain the game's different aspects. Also Small intro to ICode Guru by Muhammad Talha. Thanks for the #opportunity Zafar Shahid, PhD, Umar Rafi and Rizwan Ghaffar . I learned a lot from mentors like you. 
 #icodeGuru #AdventOfCode [Youtube Video Link](https://youtu.be/Ol2tuZsWLUM)
 
