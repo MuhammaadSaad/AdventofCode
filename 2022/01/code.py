@@ -2,7 +2,7 @@
 res=[]
 maxSum=-1
 sum=0
-with open("input1.txt",encoding='utf-8') as f:
+with open("input.txt",encoding='utf-8') as f:
     
     for i, line in enumerate(f):
         line = line.replace("\n", "")
@@ -14,6 +14,13 @@ with open("input1.txt",encoding='utf-8') as f:
                 maxSum=sum
             sum=0
 print("max sum is: ",maxSum)
-# res.sort()
-print("sorted list is: ",res)
+#PArt 2 
+res.sort()
+
+print("sorted list is: ", res)
+n=3
+highsum=0
+for i in range(n):
+    highsum+=res[len(res)-1-i]
+print("high sum is: ",highsum)
 # fun = lambda x: sum(map(int, x.split()))
