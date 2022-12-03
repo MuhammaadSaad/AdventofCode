@@ -2,10 +2,10 @@
 res=[]
 maxSum=-1
 sum=0
-with open("input.txt",encoding='utf-8') as f:
+with open("input2.txt",encoding='utf-8') as f:
     
     for i, line in enumerate(f):
-        line = line.replace("\n", "")
+        line = line.replace("\n", "")#18814\n
         if str(line) != "":
             sum+=int(line)
         else:
