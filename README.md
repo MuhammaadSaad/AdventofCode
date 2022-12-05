@@ -14,5 +14,5 @@ I participate every year in Advent of code from 2021. It is great journey to sol
 Leaderboard are also available for later years
 ## Private Leaderboard 2021: 1690467-c4c56134 
 ## Icode Private Leaderboard: 1739374-ef9ce455
-### 2rd on private leaderboard 2022
+### 2nd on private leaderboard 2022
 
