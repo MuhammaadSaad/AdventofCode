@@ -8,7 +8,7 @@ print(raw_stacks) # Stack details no matter how many lines in stack details
 instructions = []
 stacks = [[] for _ in range(10)]  # 0 is empty filler
 for row in raw_stacks.splitlines()[-2::-1]:
-    # print(row)[1::4])
+    print(row)#[1::4])
     for i, c in enumerate(row[1::4], start=1):
         if c != " ":
             stacks[i].append(c)
