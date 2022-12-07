@@ -2,58 +2,17 @@
 ###### My stats
 
 ```
-[XX] Day 1 - 01:51:10  16475
 
-[XX] Day 2 - 00:52:23  13016
-
-[ ] Day 3 -  
-
-[ ] Day 4 - 
-
-[XX] Day 5 - 
-
-[XX] Day 6 - 
-
-[XX] Day 7 - 
-
-[XX] Day 8 - 
-
-[XX] Day 9 - 
-
-[XX] Day 10 - 
-
-[XX] Day 11 - 
-
-[XX] Day 12 - 
-
-[XX] Day 13 - 
-
-[XX] Day 14 - 
-
-[XX] Day 15 - 
-
-[XX] Day 16 - 
-
-[XX] Day 17 - 
-
-[XX] Day 18 - 
-
-[XX] Day 19 - 
-
-[XX] Day 20 - 
-
-[XX] Day 21 - 
-
-[XX] Day 22 -
-
-[XX] Day 23 - 
-
-[XX] Day 24 -
-
-[XX] Day 25 - 
+  --------Part 1--------   --------Part 2--------
+Day       Time   Rank  Score       Time   Rank  Score
+  4   00:28:16  11204      0   00:29:41   9510      0
+  3   00:09:43   2637      0   00:24:41   5165      0
+  2   00:26:30  10472      0   00:52:23  13016      0
+  1   01:49:18  17499      0   01:51:10  16475      0
+  ]
 
 ```
 ###### these rankings are from global.
 ## Private Leaderboard 2021: 1690467-c4c56134 also available for later years
 ## My Private Leaderboard: 1739374-ef9ce455
-### 2rd on private leaderboard
+### 2nd on private leaderboard
