@@ -44,7 +44,7 @@ def compare(left, right):
     
 #     break
 def solve(part1):
-    data = open('input.txt').read().strip()
+    data = open('test.txt').read().strip()
     S = 0
     PairsP2 = [
         [[2]],
