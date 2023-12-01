@@ -1,30 +1,22 @@
 
 
 f = open("input.txt").read().strip().split("\n")
-
+p1sum = 0
+p2sum = 0
 for i in range(len(f)):
-    s1 = f[i]
-    m = re.findall(r"\d", s1)
-    #print(m)
-    sum+=int(m[0]+m[-1])
-    print(sum)
-
-
-
-
-# part 2
-o = 0
-for i in range(len(f)):
-    x = f[i]
-    y = ""
-    for i in range(len(x)):
-        if x[i] in "0123456789":
-            y += x[i]
+    text = f[i]
+    p1 = ""
+    p2 = ""
+    for i in range(len(text)):
+        #Part1
+        if text[i] in "0123456789":
+            p1 += text[i]
         # PART TWO CODE
         words = ["zero","one","two","three","four","five","six","seven","eight","nine"]
-        for j in words:
-            if x[i:i+len(j)] == j:
-                y += str(words.index(j))
-        
-    o+= int(y[0]+y[-1])
-print(o)
+        for word in words:
+            if text[i:i+len(word)] == j:
+                p2 += str(words.index(word))
+    p1sum+= int(p1[0]+p1[-1]) 
+    p2sum+= int(p2[0]+p2[-1])
+print("Day 1 Part 1:"+p1sum)
+print("Day 1 Part 2:"+p2sum)
