@@ -5,9 +5,9 @@
 
 # AdventofCode
 
-[![Image of Views](https://github.com/MuhammadSaadSiddique/Views/blob/master/svg/441395757/badge.svg)](https://github.com/MuhammadSaadSiddique/Views/blob/master/readme/441395757/week.md)
+![Image of Views](https://github.com/MuhammadSaadSiddique/Views/blob/master/graph/441395757/large/year.png)
 
-[Advent of Code](https://adventofcode.com) competition
+[![Image of Views](https://github.com/MuhammadSaadSiddique/Views/blob/master/svg/441395757/badge.svg)](https://github.com/MuhammadSaadSiddique/Views/blob/master/readme/441395757/week.md) 
 I have recorded Intro to Advent of code. I covered the steps you need to take to start playing and explain the game's different aspects. Also Small intro to ICode Guru by Muhammad Talha. Thanks for the #opportunity Zafar Shahid, PhD, Umar Rafi and Rizwan Ghaffar . I learned a lot from mentors like you. 
 #icodeGuru #AdventOfCode [Youtube Video Link](https://youtu.be/Ol2tuZsWLUM)
 
