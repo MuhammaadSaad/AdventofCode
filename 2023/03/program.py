@@ -20,7 +20,7 @@ def consider_number_neighbors(start_y, start_x, end_y, end_x, num):
 
 num_pattern = re.compile('\d+')
 
-for line in open('input3.txt').readlines():
+for line in open('input.txt').readlines():
   board.append( line.strip() )
 
 for row_num in range(len(board)):
