@@ -2,7 +2,8 @@
 import argparse
 import subprocess
 import sys
-import requests
+# import requests
+from datetime import datetime
 from decouple import config #use this to install package: pip install python-decouple
 # Usage: ./get_input.py > 1.in
 # You must fill in SESSION following the instructions below.
@@ -25,11 +26,13 @@ except:
 
 useragent = 'https://github.com/MuhammadSaadSiddique/AdventOfCode/blob/main/get_input.py by muhammadsaad2387@gmail.com'
 parser = argparse.ArgumentParser(description='Read input')
+time =datetime.now()
 parser.add_argument('--year', type=int, default=2023)
 parser.add_argument('--day', type=int, default=1)
 args = parser.parse_args()
 
-cmd = f'curl https://adventofcode.com/{args.year}/day/{args.day}/input --cookie "session={SESSION}" -A \'{useragent}\''
+cmd = f'curl https://adventofcode.com/{args.year}/day/{args.day}/input --cookie "session={SESSION}"'
+
 output = subprocess.check_output(cmd, shell=True)
 output = output.decode('utf-8')
 print(output, end='')
