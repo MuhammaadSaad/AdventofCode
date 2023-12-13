@@ -31,7 +31,6 @@ You can find SESSION by using Chrome tools:
 
 
 Leaderboard are also available for later years
-## Private Leaderboard 2021: 1690467-c4c56134 
 ## Pakistan Private Leaderboard: 1739374-77ea5f22
-### 2nd on private leaderboard 2022
+### [Private leaderboard Stats](https://muhammadsaadsiddique.github.io/advent-readme-stars/)
 
