@@ -37,3 +37,6 @@ output = subprocess.check_output(cmd, shell=True)
 output = output.decode('utf-8')
 print(output, end='')
 print('\n'.join(output.split('\n')[:10]), file=sys.stderr)
+# store output in a file
+with open(f'input.txt', 'w') as f:
+    f.write(output)
