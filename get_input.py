@@ -27,8 +27,9 @@ except:
 useragent = 'https://github.com/MuhammadSaadSiddique/AdventOfCode/blob/main/get_input.py by muhammadsaad2387@gmail.com'
 parser = argparse.ArgumentParser(description='Read input')
 time =datetime.now()
-parser.add_argument('--year', type=int, default=2023)
-parser.add_argument('--day', type=int, default=1)
+print(time.year,time.day)
+parser.add_argument('--year', type=int, default=time.year)
+parser.add_argument('--day', type=int, default=time.day)
 args = parser.parse_args()
 
 cmd = f'curl https://adventofcode.com/{args.year}/day/{args.day}/input --cookie "session={SESSION}"'
