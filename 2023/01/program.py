@@ -1,4 +1,4 @@
-f = open("input.txt").read().strip().split("\n")
+open("input.txt").read().strip().split("\n")
 p1sum=0
 p2sum=0
 for i in range(len(f)):
